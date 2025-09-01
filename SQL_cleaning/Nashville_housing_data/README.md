@@ -8,7 +8,6 @@ All the codes can be found inside this [SQL query folder](/Cleaning_Datasets/SQL
         - Cleaning process perform in a [single query](/Cleaning_Datasets/SQL_cleaning/Nashville_housing_data/sql_queries/Cleaning_nashville_housing_data_raw.sql)
         - Cleaning process categorized into [individual query](/Cleaning_Datasets/SQL_cleaning/Nashville_housing_data/sql_queries/Individual%20queries/)
 
-
 # Background
 The Nashville housing dataset primary domain focuses on real estate / housing.
 Serving as a realistic example of the challenges encountered when working with raw data that consists of inconsistent formats, missing values, and possible duplicates.
