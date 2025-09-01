@@ -2,11 +2,11 @@
 This project aims to showcase or demonstrate my thought process while cleaning dirty datasets.
 - Database and tables were created solely from scratch though use of VSCode (Postgres connection)
 - Datasets were provided from [Github: Alex The Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
-All the codes can be found inside this [SQL query folder](/Cleaning_Datasets/SQL_cleaning/Nashville_housing_data/sql_queries/) 
+All the codes can be found inside this [SQL query folder](/SQL_cleaning/Nashville_housing_data/sql_queries/) 
     - For specifics:
-        - How I created my [table](/Cleaning_Datasets/SQL_cleaning/Nashville_housing_data/sql_queries/Creating_nashville_housing_data_raw.sql)
-        - Cleaning process perform in a [single query](/Cleaning_Datasets/SQL_cleaning/Nashville_housing_data/sql_queries/Cleaning_nashville_housing_data_raw.sql)
-        - Cleaning process categorized into [individual query](/Cleaning_Datasets/SQL_cleaning/Nashville_housing_data/sql_queries/Individual%20queries/)
+        - How I created my [table](/SQL_cleaning/Nashville_housing_data/sql_queries/Creating_nashville_housing_data_raw.sql)
+        - Cleaning process perform in a [single query](/SQL_cleaning/Nashville_housing_data/sql_queries/Cleaning_nashville_housing_data_raw.sql)
+        - Cleaning process categorized into [individual query](/SQL_cleaning/Nashville_housing_data/sql_queries/Individual%20queries/)
 
 # Background
 The Nashville housing dataset primary domain focuses on real estate / housing.
