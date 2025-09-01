@@ -15,7 +15,7 @@ INNER JOIN nashville_housing_data_raw AS b On
     a.uniqueid <> b.uniqueid)
 WHERE b.propertyaddress IS NULL;
 
-
+--Update propertyaddress column to fill up Null values.
 UPDATE nashville_housing_data_raw AS b
 SET propertyaddress = a.propertyaddress
 FROM 

@@ -383,20 +383,6 @@ END;
 COMMIT;
 
 
--- Delete Unused Columns
-
-
-SELECT *
-FROM nashville_housing_data_raw;
-
-ALTER TABLE nashville_housing_data_raw
-DROP COLUMN saledate,
-DROP COLUMN propertyaddress,
-DROP COLUMN owneraddress,
-DROP COLUMN taxdistrict;
-
-
-
 
 
 

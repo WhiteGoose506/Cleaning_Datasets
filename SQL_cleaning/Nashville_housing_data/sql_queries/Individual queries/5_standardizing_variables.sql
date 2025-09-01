@@ -5,9 +5,9 @@ SELECT
     DISTINCT(soldasvacant),
     COUNT (*) AS total,
     CASE
-        WHEN soldasvacant = 'N' THEN 'No'
-        WHEN soldasvacant = 'Y' THEN 'Yes'
-        ELSE soldasvacant
+        WHEN TRIM(soldasvacant) = 'N' THEN 'No'
+        WHEN TRIM(soldasvacant) = 'Y' THEN 'Yes'
+        ELSE TRIM(soldasvacant)
     END AS cleaned_soldasvacant
 FROM 
     nashville_housing_data_raw
@@ -21,9 +21,9 @@ BEGIN;
 UPDATE nashville_housing_data_raw
 SET soldasvacant = 
     CASE
-        WHEN soldasvacant = 'N' THEN 'No'
-        WHEN soldasvacant = 'Y' THEN 'Yes'
-        ELSE soldasvacant
+        WHEN TRIM(soldasvacant) = 'N' THEN 'No'
+        WHEN TRIM(soldasvacant) = 'Y' THEN 'Yes'
+        ELSE TRIM(soldasvacant)
     END
 ;
 

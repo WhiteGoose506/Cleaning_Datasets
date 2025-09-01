@@ -20,6 +20,7 @@ WHERE
     row_num > 1;
 
 
+
 BEGIN;
 
 WITH duplicates AS(

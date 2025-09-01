@@ -17,7 +17,7 @@ SELECT
 FROM nashville_housing_data_raw;
 
 
--- Here is when I decided to use BEGIN instead, just to make sure table looks alright before commiting.
+-- Use Begin before committing permanently, to allow checking for reassurance
 BEGIN;
 
 ALTER TABLE nashville_housing_data_raw
@@ -28,20 +28,21 @@ UPDATE nashville_housing_data_raw
 SET property_street_address = TRIM(SPLIT_PART(propertyaddress, ',', 1)),
 property_city = TRIM(SPLIT_PART(propertyaddress, ',', 2));
 
+-- Checking table to see result is corrected as intended
 SELECT *
 FROM nashville_housing_data_raw;
 
 COMMIT;
 
 
--- Focusing on owneraddress last.
+-- Focusing on owneraddress next.
 SELECT
     TRIM(SPLIT_PART(owneraddress, ',', 1)) AS owner_street_address,
     TRIM(SPLIT_PART(owneraddress, ',', 2)) AS owner_city,
     TRIM(SPLIT_PART(owneraddress, ',', 3)) AS owner_state
 FROM nashville_housing_data_raw;
 
-
+-- same concept as above
 BEGIN;
 
 ALTER TABLE nashville_housing_data_raw
