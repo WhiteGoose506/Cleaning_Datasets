@@ -1,12 +1,7 @@
 # 🧹 Cleaning_Datasets 🧹
----
-##
-A collection of SQL and Python scripts for cleaning and preparing real-world datasets.  
-This repository demonstrates practical **data wrangling**, **standardization**, and **quality improvement** techniques.
-Main language focus to clean dataset as follows:
--🛢️ SQL
--🐍 Python
--📊 Excel
+
+## Tools for cleaning datasets with:  
+🛢️ SQL(Postgres) · 🐍 Python · 📊 Excel
 ---
 
 ## 1️⃣ **Current Completed Project**: *Nashville Housing Data*
