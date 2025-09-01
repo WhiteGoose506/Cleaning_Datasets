@@ -1,9 +1,10 @@
 # 🧹 Cleaning_Datasets 🧹
+---
 
 ## Tools for cleaning datasets with:  
 🛢️ SQL(Postgres) · 🐍 Python · 📊 Excel
 ---
-
+---
 ## 1️⃣ **Current Completed Project**: *Nashville Housing Data*
 
 The first dataset cleaned in this repository is the **Nashville Housing Data**.  
